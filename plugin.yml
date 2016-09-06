@@ -1,1 +1,9 @@
+name: TeamVSTeamDP
+main: TeamVSTeamDP\Main
+author: khavmc
+version: 1.0.0
+api: 2.0.0
 
+commands:
+    tvt: 
+        description: To Join Team Red Or Blue
