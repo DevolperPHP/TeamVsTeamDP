@@ -225,4 +225,8 @@ else if ((strpos($golpeado, "Â§f[Â§lÂ§eYellowÂ§f]") !== false) && (strpo
             
         }
             }
+            
+        public function onDisable(){
+          $this->getConfig()->save();
+        }
 }
